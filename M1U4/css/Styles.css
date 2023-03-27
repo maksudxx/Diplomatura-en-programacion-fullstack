@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------- HEADER---------------------*/
+
+.header {
+    height: 250px;
+    display: flex;
+    background: rgb(245, 245, 220);
+    justify-content: space-around
+}
+.container-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    
+}
+
+h1, h2{
+    font-family: 'Alkatra', cursive;
+}
+
+img{
+    height:200px;
+    border-radius: 100px;
+}
+.container-title{
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.container-info{
+    background: rgba(245, 245, 220, 0.181);
+}
+
+/*----------BODY----------------*/
+
+.container-info{
+    display: flex;
+    padding: 30px;
+    
+}
+
+.contacto{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+    
+    
+}
+h3{
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    margin: 15px 0;
+}
+input{
+    width: 70%;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 70%;
+    margin-bottom: 15px;
+}
+.info{
+    width: 65%;
+}
+.button-send{
+    height: 30px;
+    width: 80px;
+}
+
+.button-send:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(245, 245, 220);
+}
+
+.paragraph-footer{
+   margin-top: 35px; 
+}
+
+
+
+
