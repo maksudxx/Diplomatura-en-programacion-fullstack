@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------- HEADER---------------------*/
+
+.header {
+  height: 250px;
+  display: flex;
+  background: rgb(245, 245, 220);
+  justify-content: space-around;
+}
+.container-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+
+h1,
+h2 {
+  font-family: "Alkatra", cursive;
+}
+
+img {
+  height: 200px;
+  border-radius: 100px;
+}
+.container-title {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-info {
+  background: rgba(245, 245, 220, 0.181);
+}
+
+/*----------BODY----------------*/
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+}
+
+.contacto {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  padding: 20px;
+  border-bottom: 2px solid;
+}
+h3 {
+  margin-bottom: 20px;
+}
+li {
+  list-style: none;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  margin: 15px 0;
+}
+input {
+  width: 70%;
+  margin-bottom: 15px;
+}
+textarea {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.button-send {
+  height: 30px;
+  width: 80px;
+}
+
+.button-send:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*------------------- PIE de pagina ------------------*/
+
+.footer {
+  border-top: 2px solid;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(245, 245, 220);
+  justify-content: center;
+}
+
+.paragraph-footer {
+  margin-top: 20px;
+}
+
+.container-redes {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
