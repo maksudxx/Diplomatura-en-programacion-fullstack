@@ -1,0 +1,44 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Seccion principal */
+
+.tarjeta {
+  border: none !important;
+}
+.titulo-columna {
+  font-size: 20px;
+  font-weight: 500;
+  height: 50px;
+  border-bottom: 1px solid #cacaca;
+}
+
+.texto-noticia {
+  font-size: 10px;
+}
+
+.titulo-rojo {
+  color: #e71515;
+  font-size: 20px;
+  margin: 0 0;
+}
+
+.titulo-rojo:hover{
+    cursor: pointer;
+}
+
+.separador {
+  border: 1px solid #cacaca;
+  margin: 15px 0;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 500px) {
+    .tarjeta {
+      display: none;
+    }
+  }
