@@ -1,3 +1,9 @@
+/* Header */
+.option-menu{
+    font-weight: 500;
+}
+/* Carousel */
+
 .carousel-container {
   display: flex;
   justify-content: center;
