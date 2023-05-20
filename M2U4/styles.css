@@ -158,7 +158,11 @@ i:hover {
   .titulo-columna-3,
   .titulo-centro {
     margin: 20px 0;
+    font-size: 15px;
+    
   }
+ 
+ 
   .titulo-columna {
     font-size: 15px;
   }
@@ -172,4 +176,9 @@ i:hover {
     justify-content: center;
     margin-bottom: 25px;
  }
+
+ .separador-2{
+    display: none;
+ }
+
 }
