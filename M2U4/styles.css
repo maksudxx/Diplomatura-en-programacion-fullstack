@@ -45,21 +45,10 @@
 }
 
 .contenedor-imagen {
-  position: relative;
-  display: inline-block;
   margin-bottom: 20px;
   width: 100%;
 }
-.contenedor-imagen > p {
-  position: absolute;
-  top: 0;
-  left: 0;
 
-  z-index: -1;
-  padding: 10px;
-  margin: 0;
-  color: #000000;
-}
 .img-noticia-1 {
   width: 100%;
 }
@@ -91,40 +80,91 @@
   cursor: pointer;
   text-decoration: underline;
 }
-.container-partidos{
-    border: 1px solid #cacaca;
-    padding:10px;
+.container-partidos {
+  border: 1px solid #cacaca;
+  padding: 10px;
 }
 .titulo-partido {
   font-size: 11px;
 }
 
-span{
-    font-size: 11px;
-    margin: 0;
+span {
+  font-size: 11px;
+  margin: 0;
 }
 
-.fila-equipos{
-    display: flex;
-    justify-content: space-between;
+.fila-equipos {
+  display: flex;
+  justify-content: space-between;
 }
 
-.detalle-partido{
-    font-size: 11px;
-    font-weight: bold;
-    background: #cacaca;
-    text-align: center;
+.detalle-partido {
+  font-size: 11px;
+  font-weight: bold;
+  background: #cacaca;
+  text-align: center;
 }
 
-.detalle-partido:hover{
-    background: #e71515;
-    color: #fff;
-    cursor: pointer;
+.detalle-partido:hover {
+  background: #e71515;
+  color: #fff;
+  cursor: pointer;
 }
+
+/* Footer */
+
+.separador-2 {
+  border: 1px solid #cacaca;
+  margin: 40px;
+}
+footer {
+  background: #191919;
+  color: #fff;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+i {
+  font-size: 40px;
+  border-radius: 100%;
+}
+
+i:hover {
+  color: #add8e6;
+  cursor: pointer;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 /* Responsive */
 
-@media screen and (min-width: 500px) {
-  .tarjeta {
+@media screen and (max-width: 750px) {
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .columna-responsive {
     display: none;
+  }
+
+  .titulo-columna-3,
+  .titulo-centro {
+    margin: 20px 0;
+  }
+  .titulo-columna {
+    font-size: 15px;
+  }
+
+  .fila-equipos {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
