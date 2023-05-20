@@ -25,20 +25,106 @@
   margin: 0 0;
 }
 
-.titulo-rojo:hover{
-    cursor: pointer;
+.titulo-rojo:hover {
+  cursor: pointer;
 }
-
+.container-titulos {
+  margin-bottom: 20px;
+}
 .separador {
   border: 1px solid #cacaca;
   margin: 15px 0;
 }
 
+.titulo-centro {
+  font-size: 20px;
+  font-weight: 500;
+  height: 50px;
+  width: 50%;
+  display: inline;
+}
 
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.contenedor-imagen > p {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  padding: 10px;
+  margin: 0;
+  color: #000000;
+}
+.img-noticia-1 {
+  width: 100%;
+}
+.img-noticia-1:hover {
+  opacity: 0.07;
+  cursor: pointer;
+}
+.titulo-rojo-2:hover {
+  color: #e71515;
+  cursor: pointer;
+}
+
+.titulo-columna-3 {
+  font-size: 20px;
+  display: inline;
+  font-weight: 500;
+  width: auto;
+}
+
+.container-titulos-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rojo {
+  color: #e71515;
+}
+.rojo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container-partidos{
+    border: 1px solid #cacaca;
+    padding:10px;
+}
+.titulo-partido {
+  font-size: 11px;
+}
+
+span{
+    font-size: 11px;
+    margin: 0;
+}
+
+.fila-equipos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalle-partido{
+    font-size: 11px;
+    font-weight: bold;
+    background: #cacaca;
+    text-align: center;
+}
+
+.detalle-partido:hover{
+    background: #e71515;
+    color: #fff;
+    cursor: pointer;
+}
 /* Responsive */
 
 @media screen and (min-width: 500px) {
-    .tarjeta {
-      display: none;
-    }
+  .tarjeta {
+    display: none;
   }
+}
