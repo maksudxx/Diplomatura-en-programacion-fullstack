@@ -4,17 +4,19 @@
 /* Header */
 
 img{
-    width: 100px;
+    height: 40px;
     margin-left: 50px;
 }
 header {
   background: #181818;
+  height: 20vh;
 }
 
 .menu {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+ 
 }
 
 .option{
