@@ -1,0 +1,28 @@
+* {
+  color: #fff !important;
+}
+/* Header */
+
+img{
+    width: 100px;
+    margin-left: 50px;
+}
+header {
+  background: #181818;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option{
+    
+    font-family: 'Pangolin', cursive;
+}
+
+.option a:hover{
+    color: #ffa500 !important;
+    font-size: 1.03rem;
+}
