@@ -9,7 +9,7 @@ img{
 }
 header {
   background: #181818;
-  height: 20vh;
+  min-height: 20vh;
 }
 
 .menu {
@@ -28,3 +28,5 @@ header {
     color: #ffa500 !important;
     font-size: 1.03rem;
 }
+
+
