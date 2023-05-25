@@ -73,14 +73,56 @@ header {
   text-align: center;
 }
 
-@media screen and (max-width: 675px){
-  .titulo-nosotros{
-    font-size: 2.5rem;
+.container-productos {
+  background: #181818;
+}
+
+.grid-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.columna-cards {
+  display: flex;
+  justify-content: center;
+}
+.card-fondo-texto {
+  background: #4e4e4e;
+  font-family: Pangolin, cursive;
+}
+.card {
+  margin-bottom: 15px;
+  border: 3px solid #ffa500
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  position: relative;
+}
+.boton-productos{
+  height: 75px;
+  width: 250px;
+  background: #ffa500;
+  text-align: center;
+  font-family: Pangolin, cursive;
+  font-size: 1.3rem;
+  margin: 20px 0 50px 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.boton-productos a{
+  text-decoration: none;
+}
+@media screen and (max-width: 675px) {
+  .titulo-nosotros {
+    font-size: 2rem;
     padding-top: 10px;
     margin: 10px;
   }
 
-  .descripcion-nosotros{
+  .descripcion-nosotros {
     font-size: 1rem;
     text-align: center;
     padding: 0 20px;
