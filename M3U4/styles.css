@@ -1,0 +1,44 @@
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contenedor-punto-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
+}
+.cuadrado{
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado:hover{
+    cursor: pointer;
+}
+
+.rojo.clicked{
+    background: red;
+}
+.azul.clicked{
+    background: blue;
+}
+.verde.clicked{
+    background: green;
+}
+
+.contenedor-punto-2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
