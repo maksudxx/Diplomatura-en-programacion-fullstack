@@ -95,14 +95,15 @@ header {
 .card-fondo-texto {
   background: #181818;
   font-family: Pangolin, cursive;
+  
 }
 .card {
-  border: 3px solid #ffa500;
+  border: none;
 }
+
 
 .card:hover {
   cursor: pointer;
-  transform: scale(1.1);
   position: relative;
 }
 .boton-productos {
@@ -213,7 +214,7 @@ span {
   .logo-footer {
     order: 2;
   }
-  .redes-sociales{
+  .redes-sociales {
     justify-content: space-evenly;
   }
 }
