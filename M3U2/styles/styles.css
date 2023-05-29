@@ -76,22 +76,29 @@ header {
 .container-productos {
   background: #181818;
 }
-
+.row{
+  justify-content: center;
+  gap: 20px;
+}
 .grid-cards {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .columna-cards {
   display: flex;
   justify-content: center;
+  padding: 0;
+  width: 18rem;
 }
 .card-fondo-texto {
-  background: #4e4e4e;
+  background: #181818;
   font-family: Pangolin, cursive;
 }
 .card {
-  margin-bottom: 15px;
+  
   border: 3px solid #ffa500
 }
 
