@@ -138,42 +138,41 @@ header {
   padding-bottom: 20px;
 }
 
-.footer-container i, span{
+.footer-container i,
+span {
   font-size: 1rem;
 }
-.contacto{
+.contacto {
   width: 20%;
   margin-left: 20px;
 }
-.mail{
+.mail {
   margin-right: 10px;
 }
-.logo-footer{
+.logo-footer {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-.img-footer-pizzeria{
+.img-footer-pizzeria {
   width: 320px;
 }
-.redes-sociales{
+.redes-sociales {
   width: 20%;
   display: flex;
   justify-content: space-around;
 }
 
-.redes-sociales i{
+.redes-sociales i {
   font-size: 2rem;
 }
 
-.redes-sociales i:hover{
+.redes-sociales i:hover {
   cursor: pointer;
   color: #ffa500 !important;
-  
 }
 
 @media screen and (max-width: 675px) {
-  
   .titulo-nosotros {
     font-size: 2rem;
     padding-top: 10px;
@@ -186,27 +185,35 @@ header {
     padding: 0 20px;
   }
 
-  .boton-productos{
-    margin: 10px ;
+  .boton-productos {
+    margin: 10px;
   }
-  .footer-container{
+  .footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;;
+    height: auto;
   }
 
-  .img-footer-pizzeria{
+  .img-footer-pizzeria {
     width: 200px;
   }
-  .contacto, .logo-footer, .redes-sociales{
+  .contacto,
+  .logo-footer,
+  .redes-sociales {
     width: 100%;
     margin: 10px 0;
   }
 
-  .contacto{
+  .contacto {
     text-align: center;
     font-size: 0.8rem;
+  }
+  .logo-footer {
+    order: 2;
+  }
+  .redes-sociales{
+    justify-content: space-evenly;
   }
 }
