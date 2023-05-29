@@ -76,7 +76,7 @@ header {
 .container-productos {
   background: #181818;
 }
-.row{
+.row {
   justify-content: center;
   gap: 20px;
 }
@@ -85,7 +85,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .columna-cards {
   display: flex;
@@ -98,16 +97,15 @@ header {
   font-family: Pangolin, cursive;
 }
 .card {
-  
-  border: 3px solid #ffa500
+  border: 3px solid #ffa500;
 }
 
-.card:hover{
+.card:hover {
   cursor: pointer;
   transform: scale(1.1);
   position: relative;
 }
-.boton-productos{
+.boton-productos {
   height: 70px;
   width: 200px;
   background: #ffa500;
@@ -122,10 +120,60 @@ header {
   justify-content: center;
 }
 
-.boton-productos a{
+.boton-productos:hover {
+  opacity: 0.7;
+}
+
+.boton-productos a {
   text-decoration: none;
 }
+
+.footer-container {
+  height: 150px;
+  background: #000;
+  font-family: pangolin, cursive;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.footer-container i, span{
+  font-size: 1rem;
+}
+.contacto{
+  width: 20%;
+  margin-left: 20px;
+}
+.mail{
+  margin-right: 10px;
+}
+.logo-footer{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.img-footer-pizzeria{
+  width: 320px;
+}
+.redes-sociales{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes-sociales i{
+  font-size: 2rem;
+}
+
+.redes-sociales i:hover{
+  cursor: pointer;
+  color: #ffa500 !important;
+  
+}
+
 @media screen and (max-width: 675px) {
+  
   .titulo-nosotros {
     font-size: 2rem;
     padding-top: 10px;
@@ -136,5 +184,29 @@ header {
     font-size: 1rem;
     text-align: center;
     padding: 0 20px;
+  }
+
+  .boton-productos{
+    margin: 10px ;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;;
+  }
+
+  .img-footer-pizzeria{
+    width: 200px;
+  }
+  .contacto, .logo-footer, .redes-sociales{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contacto{
+    text-align: center;
+    font-size: 0.8rem;
   }
 }
