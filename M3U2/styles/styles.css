@@ -129,6 +129,8 @@ header {
   text-decoration: none;
 }
 
+/* Footer */
+
 .footer-container {
   height: 150px;
   background: #000;
@@ -173,6 +175,7 @@ span {
   color: #ffa500 !important;
 }
 
+/* Responsive */
 @media screen and (max-width: 675px) {
   .titulo-nosotros {
     font-size: 2rem;
