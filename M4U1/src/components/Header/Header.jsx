@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="menuNavbar" />
         <Navbar.Collapse id="menuNavbar">
           <Nav className={`me-auto my-2 my-lg-0 ${styles.optionMenu}`}>
-            <Nav.Link href="#action1">FUTBOL</Nav.Link>
+            <Nav.Link href="#action1">FÚTBOL</Nav.Link>
             <Nav.Link href="#action2">SOCIOS</Nav.Link>
             <Nav.Link href="#">ENTRADAS</Nav.Link>
             <Nav.Link href="#">RIVER ID</Nav.Link>

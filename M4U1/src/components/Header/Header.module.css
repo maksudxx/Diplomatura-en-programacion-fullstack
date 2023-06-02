@@ -10,6 +10,7 @@
   display: flex;
   justify-content: end;
   padding-right: 70px;
+  font-weight: 500;
 }
 
 .logo {
