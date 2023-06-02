@@ -17,8 +17,13 @@
   padding-left: 70px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .logo {
     padding-left: 10px;
+  }
+  .optionMenu{
+    width: 100%;
+    align-items: center;
+    padding: 0;
   }
 }
