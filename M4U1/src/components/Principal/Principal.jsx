@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import { CardNoticias } from '../Card-Noticias/CardNoticias';
 import noticias from "../../utils/NoticiasUtil"
 import styles from './Principal.module.css'
+import { NoticiasPrincipales } from '../Noticias-principales/NoticiasPrincipales';
 
 export const Principal = () => {
 
@@ -19,7 +20,9 @@ export const Principal = () => {
                     ))}
                 </div>
             </Col>
-            <Col lg={7} md={8}>Noticias principales</Col>
+            <Col lg={7} md={8}>
+                <NoticiasPrincipales/>
+            </Col>
             <Col lg={3} md={12}>proximos partidos</Col>
         </Row>
         
