@@ -1,0 +1,22 @@
+.cardContainer {
+  border: none;
+  border-bottom: 1 px solid #cacaca !important;
+  font-size: 0.7em;
+ 
+}
+
+.contentCard {
+  padding: 0;
+}
+
+.titleCard {
+  color: red;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+
+.separador {
+    border: 1px solid #cacaca;
+    margin: 10px 0;
+  }
