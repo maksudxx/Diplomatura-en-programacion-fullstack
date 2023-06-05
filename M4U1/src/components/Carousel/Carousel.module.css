@@ -1,4 +1,5 @@
 .carouselContainer{
     max-height: 400px;
     overflow: hidden;
+    margin-bottom: 15px;;
 }
