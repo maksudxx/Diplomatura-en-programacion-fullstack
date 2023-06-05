@@ -2,7 +2,6 @@
   border: none;
   border-bottom: 1 px solid #cacaca !important;
   font-size: 0.7em;
- 
 }
 
 .contentCard {
@@ -15,8 +14,7 @@
   margin: 10px 0;
 }
 
-
 .separador {
-    border: 1px solid #cacaca;
-    margin: 10px 0;
-  }
+  border: 1px solid #cacaca;
+  margin: 10px 0;
+}
