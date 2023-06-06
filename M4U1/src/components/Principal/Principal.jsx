@@ -5,6 +5,7 @@ import { CardNoticias } from '../Card-Noticias/CardNoticias';
 import noticias from "../../utils/NoticiasUtil"
 import styles from './Principal.module.css'
 import { NoticiasPrincipales } from '../Noticias-principales/NoticiasPrincipales';
+import { Partidos } from '../Card-Partidos/Partidos';
 
 export const Principal = () => {
 
@@ -23,7 +24,7 @@ export const Principal = () => {
             <Col lg={7} md={8}>
                 <NoticiasPrincipales/>
             </Col>
-            <Col lg={3} md={12}>proximos partidos</Col>
+            <Col lg={3} md={12}><Partidos/></Col>
         </Row>
         
     </Container>

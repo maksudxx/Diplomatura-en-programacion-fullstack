@@ -1,0 +1,56 @@
+.partidosContainer {
+  border: 1px solid #cacaca;
+  padding: 10px;
+}
+
+.tituloPartido {
+  font-size: 11px;
+}
+
+.filaEquipos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detallePartido {
+  font-size: 11px;
+  font-weight: bold;
+  background: #cacaca;
+  text-align: center;
+}
+
+.detallePartido:hover {
+  background: #e71515;
+  color: #fff;
+  cursor: pointer;
+}
+
+.separador {
+  border: 1px solid #cacaca;
+  margin: 15px 0;
+}
+
+.partidoEquipos {
+  font-size: 11px;
+  margin: 0;
+}
+
+.containerTitulos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-size: 20px;
+  display: inline;
+  font-weight: 500;
+  width: auto;
+}
+
+.rojo {
+  color: #e71515;
+}
+.rojo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
