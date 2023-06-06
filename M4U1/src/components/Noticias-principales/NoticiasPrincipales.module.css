@@ -3,29 +3,37 @@
   font-weight: 500;
   height: 50px;
   width: 100%;
-  
-
 }
 
 .title span {
   color: red;
- margin-left: 30px;
+  margin-left: 30px;
 }
 
-.title span:hover{
+.title span:hover {
+  cursor: pointer;
+}
+
+.noticiaTitle {
+  margin: 15px 0;
+  
+}
+
+.noticiaTitle:hover{
+    color: red;
     cursor: pointer;
 }
 
-.noticiaTitle{
-    margin: 15px 0
+.separador {
+  border: 1px solid #cacaca;
+  margin-bottom: 20px;
 }
 
-.separador{
-    border: 1px solid #cacaca;
-    margin-bottom: 20px
+.noticiaCard img:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
-.noticiaCard img:hover{
-    cursor: pointer;
-    opacity: 0.7;
+.imageNoticia {
+  width: 100%;
 }
