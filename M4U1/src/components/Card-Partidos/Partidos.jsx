@@ -75,9 +75,9 @@ export const Partidos = () => {
               alt="River"
             />
             <div className={styles.partidoEquipos}>
-              <span>Sporting Cristal VS</span> <br />
+              <span>Sporting Cristal 1 VS</span> <br />
               <span>
-                <strong>River Plate</strong>
+                <strong>River Plate 1</strong>
               </span>
             </div>
           </div>
