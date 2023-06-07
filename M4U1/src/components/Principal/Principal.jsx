@@ -13,7 +13,7 @@ export const Principal = () => {
   return (
     <Container>
         <Row>
-            <Col lg={2} md={4}>
+            <Col lg={2} md={4} className={styles.oculto}>
                 <p className={styles.titleContainer}>Noticias del club</p>
                 <div>
                     {noticias.map((noticia, key)=>(

@@ -5,3 +5,9 @@
     border-bottom: 1px solid #cacaca;
     margin-bottom: 0;
 }
+
+@media (max-width:750px) {
+    .oculto{
+        display: none !important;
+    }
+}
