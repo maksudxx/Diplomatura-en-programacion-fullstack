@@ -1,0 +1,21 @@
+.containerNavbar {
+  background: #181818;
+  min-height: 20vh;
+  padding: 0 45px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option {
+  font-family: "Pangolin", cursive;
+}
+
+.option a:hover {
+    color: #ffa500 !important;
+    font-size: 1.03rem;
+  }
+  
