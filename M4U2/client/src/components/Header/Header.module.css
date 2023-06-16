@@ -1,3 +1,4 @@
+
 .containerNavbar {
   background: #181818;
   min-height: 20vh;
@@ -9,13 +10,26 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+.logo {
+  height: 40px;
+}
 .option {
   font-family: "Pangolin", cursive;
 }
 
-.option a:hover {
-    color: #ffa500 !important;
-    font-size: 1.03rem;
-  }
-  
+.option:hover {
+  color: #ffa500 !important;
+  font-size: 1.03rem;
+}
+
+.menuResponsive  {
+  background-color: #ffa500;
+}
+
+@media screen and (max-width: 991px) {
+    .menu{
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+}
