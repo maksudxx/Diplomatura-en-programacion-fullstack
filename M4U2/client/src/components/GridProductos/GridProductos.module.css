@@ -17,3 +17,11 @@
   justify-content: center;
   padding: 0 20px;
 }
+
+@media  (max-width: 675px) {
+  .productsTitle{
+    font-size: 2rem;
+    padding-top: 10px;
+    margin: 10px;
+  }
+}
