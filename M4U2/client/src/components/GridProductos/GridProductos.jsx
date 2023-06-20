@@ -6,7 +6,7 @@ export const GridProductos = () => {
   return (
     <div className={styles.productsContainer}>
       <h1 className={styles.productsTitle}>RECOMENDACIONES DE LA CASA</h1>
-      <div>
+      <div className={styles.grid}>
         {listaProductos.map((product, index) => (
           <CardProductos
             key={index}
