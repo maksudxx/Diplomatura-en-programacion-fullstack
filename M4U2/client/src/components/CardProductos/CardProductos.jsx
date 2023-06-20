@@ -7,7 +7,7 @@ const CardProductos = ({ title, description, image }) => {
       <Card className={styles.containerCard}>
         <Card.Img variant="top" src={image} />
         <Card.Body className={styles.textCard}>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className={styles.cardTitle}>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
         </Card.Body>
       </Card>

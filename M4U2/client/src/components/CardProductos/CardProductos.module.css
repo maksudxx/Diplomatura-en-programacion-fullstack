@@ -1,8 +1,17 @@
 .containerCard {
+  display: flex;
   border: none;
-  width: 18rem;
+  width: 20em;
+ 
 }
 .textCard {
   background: #181818;
   font-family: Pangolin, cursive;
+}
+
+.containerCard:hover {
+  cursor: pointer;
+}
+.cardTitle {
+  margin: 10px 0
 }
