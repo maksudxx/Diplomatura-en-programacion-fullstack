@@ -1,6 +1,8 @@
 
 export const Productos = () => {
   return (
-    <div>Productos</div>
+    <>
+        <h1>Menu</h1>
+    </>
   )
 }
