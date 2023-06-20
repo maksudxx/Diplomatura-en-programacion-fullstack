@@ -2,7 +2,7 @@ import "./App.css";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Inicio } from "./pages/Inicio/Inicio";
-import { Nosotros } from "./pages/Nosotros";
+// import { Nosotros } from "./pages/Nosotros";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Inicio />
       <Footer/>
-      <Nosotros/>
+      {/* <Nosotros/> */}
     </>
   );
 }
