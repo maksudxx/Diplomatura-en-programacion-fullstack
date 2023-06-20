@@ -12,7 +12,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 20em);
+  grid-template-columns: repeat(auto-fill, 18em);
   gap: 30px;
   justify-content: center;
   padding: 0 20px;

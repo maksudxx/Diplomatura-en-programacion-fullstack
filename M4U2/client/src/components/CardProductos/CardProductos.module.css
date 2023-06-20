@@ -1,12 +1,13 @@
 .containerCard {
   display: flex;
   border: none;
-  width: 20em;
+  width: 18em;
  
 }
 .textCard {
   background: #181818;
   font-family: Pangolin, cursive;
+  padding: 10px 0;
 }
 
 .containerCard:hover {
