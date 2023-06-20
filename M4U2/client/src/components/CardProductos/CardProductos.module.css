@@ -1,10 +1,8 @@
-.containerCard{
-    border: none;
-    width: 18rem;
-    
+.containerCard {
+  border: none;
+  width: 18rem;
 }
-.textCard{
-    background: #181818;
-    font-family: Pangolin, cursive;
-    
+.textCard {
+  background: #181818;
+  font-family: Pangolin, cursive;
 }
