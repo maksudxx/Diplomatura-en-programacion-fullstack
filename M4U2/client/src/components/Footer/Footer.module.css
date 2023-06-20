@@ -1,0 +1,79 @@
+.footerContainer {
+  height: 150px;
+  background: #000;
+  font-family: pangolin, cursive;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.footerContainer i,
+span {
+  font-size: 1rem;
+}
+
+.contacto {
+  width: 20%;
+  margin-left: 20px;
+}
+.mail {
+  margin-right: 10px;
+}
+
+.logoFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgFooter {
+  width: 320px;
+}
+
+.redesSociales {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redesSociales i {
+  font-size: 2rem;
+}
+
+.redesSociales i:hover {
+  cursor: pointer;
+  color: #ffa500 !important;
+}
+
+@media screen and (max-width: 675px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh
+  }
+  .imgFooter {
+    width: 200px;
+  }
+
+  .contacto,
+  .logoFooter,
+  .redesSociales {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contacto {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .logoFooter {
+    order: 2;
+  }
+  .redesSociales {
+    justify-content: space-evenly;
+  }
+}
