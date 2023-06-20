@@ -1,3 +1,4 @@
+import { ButtonProductos } from "../../components/ButtonProductos/ButtonProductos";
 import { GridProductos } from "../../components/GridProductos/GridProductos";
 import { ImgInicio } from "../../components/ImgInicio/ImgInicio";
 
@@ -6,6 +7,7 @@ export const Inicio = () => {
     <>
       <ImgInicio />
       <GridProductos />
+      <ButtonProductos text="VER MAS PRODUCTOS"/>
     </>
   );
 };
