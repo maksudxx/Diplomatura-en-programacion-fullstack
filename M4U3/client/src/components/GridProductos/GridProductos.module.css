@@ -1,0 +1,27 @@
+.productsContainer {
+  width: 100%;
+}
+
+.productsTitle {
+  font-family: "Pangolin", cursive;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18em);
+  gap: 30px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+@media  (max-width: 675px) {
+  .productsTitle{
+    font-size: 2rem;
+    padding-top: 10px;
+    margin: 10px;
+  }
+}
