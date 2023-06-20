@@ -1,23 +1,23 @@
 .imgPizza {
-    padding: 0;
-  }
-  
-  .containerImg {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .pictureAbove {
-    max-width: 40%;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  padding: 0;
+}
+
+.containerImg {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.pictureAbove {
+  max-width: 40%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,14 @@
+.productsContainer{
+    background: #181818;
+    width: 100%;
+  
+}
+
+.productsTitle{
+    font-family: "Pangolin", cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    margin :0;
+    padding: 40px 0;  
+    text-align: center;
+}
