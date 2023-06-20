@@ -1,0 +1,66 @@
+.nosotrosContainer {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../../src/assets/img/img-inicio/foton_pizzas.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Pangolin, cursive;
+}
+
+.titulo {
+  font-family: "Pangolin", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  
+  padding-top: 20px;
+  text-align: center;
+}
+
+.descripcion {
+  font-family: Pangolin, cursive;
+  font-size: 1.5rem;
+
+  padding: 0 50px;
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+
+.formulario input, textarea{
+  color: #000 !important;
+  width: 100%;
+}
+
+.formulario label{
+  align-self: flex-start;
+  margin: 5px 0;
+}
+.buttonEnviar{
+  margin: 15px 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 675px) {
+
+  .nosotrosContainer{
+    justify-content: space-evenly;
+  }
+  .titulo {
+    font-size: 2rem;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  .descripcion {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
