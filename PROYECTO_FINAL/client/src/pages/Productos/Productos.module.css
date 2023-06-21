@@ -6,11 +6,30 @@
 .carta {
   width: 70%;
   background: #000;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 .containerMenu {
   display: grid;
   grid-template-columns: repeat(auto-fill, 15em);
   gap: 30px;
   justify-content: center;
+}
+.titulo{
+  width: 85%;
+  text-align: center;
+  margin: 30px;
+  color: #ffa500 !important;
+  font-family: Pangolin,cursive,sans-serif;
+  font-weight: bold;
+  border-bottom: 4px solid #fff;
+  align-self: center;
+  height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .carta{
+    width: 100%;
+  }
 }

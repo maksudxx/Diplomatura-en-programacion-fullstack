@@ -6,7 +6,7 @@ export const Productos = () => {
   return (
     <Container fluid className={styles.container}>
       <div className={styles.carta}>
-        <h1>Menu</h1>
+        <h1 className={styles.titulo}>Menu</h1>
         <div className={styles.containerMenu}>
           {menu.map((menu, index) => (
             <CardMenu
