@@ -1,6 +1,6 @@
 import styles from "./CardMenu.module.css";
 import PropTypes from "prop-types";
-export const CardMenu = ({ nombre, descripcion, precio, observacion }) => {
+export const CardMenu = ({ nombre, descripcion, categoria, precio, observacion }) => {
   const cat =
     observacion != "" ? (
       observacion == "Vegetariano" ? (
@@ -12,12 +12,15 @@ export const CardMenu = ({ nombre, descripcion, precio, observacion }) => {
   return (
     <>
       <div className={styles.card}>
+      
         <p className={styles.title}>{nombre}</p>
+        <p>Cat: {categoria}</p>
         <p>{descripcion}</p>
         <div className={styles.containerCard}>
           <p>${precio}</p>
           <p>{cat}</p>
         </div>
+        
       </div>
     </>
   );
