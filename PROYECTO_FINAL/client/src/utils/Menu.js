@@ -65,20 +65,14 @@ const Menu = [
   {
     nombre: "Pizza de peperoni",
     descripcion: "Queso mozzarella y doble pepperoni",
-    precio: [
-      { tamaño: 30, precio: 309 },
-      { tamaño: 15, precio: 129 },
-    ],
+    precio: 310,
     categoria: "Pizzas",
     observacion: "",
   },
   {
     nombre: "Pizza Vegetariana",
     descripcion: "pimiento rojo, cebolla,champiñones y aceitunas",
-    precio: [
-      { tamaño: 30, precio: 220 },
-      { tamaño: 15, precio: 119 },
-    ],
+    precio: 220,
     categoria: "Pizzas",
     observacion: "Vegetariano",
   },
@@ -86,50 +80,35 @@ const Menu = [
     nombre: "Pizza Xtreme Supreme",
     descripcion:
       "Pepperoni, salchicha italiana, champiñones, cebolla y pimiento verde",
-    precio: [
-      { tamaño: 30, precio: 350 },
-      { tamaño: 15, precio: 200 },
-    ],
+    precio: 350,
     categoria: "Pizzas",
     observacion: "",
   },
   {
     nombre: "Pizza Cheesy AF",
     descripcion: "queso cheddar,manchego,mozzarella y parmesano",
-    precio: [
-      { tamaño: 30, precio: 370 },
-      { tamaño: 15, precio: 200 },
-    ],
+    precio: 370,
     categoria: "Pizzas",
     observacion: "Vegetariano",
   },
   {
     nombre: "Pizza Meaty AF",
     descripcion: "Pepperoni, salchicha italiana y tocino",
-    precio: [
-      { tamaño: 30, precio: 430 },
-      { tamaño: 15, precio: 250 },
-    ],
+    precio:430,
     categoria: "Pizzas",
     observacion: "",
   },
   {
     nombre: "Pizza Basic AF",
     descripcion: "jitomate cherry, albhaca y extra queso mozzarella",
-    precio: [
-      { tamaño: 30, precio: 300 },
-      { tamaño: 15, precio: 150 },
-    ],
+    precio: 300,
     categoria: "Pizzas",
     observacion: "Vegetariano",
   },
   {
     nombre: "Pizza Hawaiana",
     descripcion: "Extra tocino, piña y queso mozzarella",
-    precio: [
-      { tamaño: 30, precio: 350 },
-      { tamaño: 15, precio: 180 },
-    ],
+    precio: 350,
     categoria: "Pizzas",
     observacion: "",
   },
@@ -137,10 +116,7 @@ const Menu = [
     nombre: "Pizza Italiana",
     descripcion:
       "Deliciosa salsa boloñesa, queso crema y pasta lasagna con queso mozzarella",
-    precio: [
-      { tamaño: 30, precio: 380 },
-      { tamaño: 15, precio: 190 },
-    ],
+    precio:380,
     categoria: "Pizzas",
     observacion: "",
   },
@@ -148,10 +124,7 @@ const Menu = [
     nombre: "Pizza Cochinita",
     descripcion:
       "Cochinita Pibil, mix de queso oaxaca y mozzarella, y cebolla morada",
-    precio: [
-      { tamaño: 30, precio: 350 },
-      { tamaño: 15, precio: 180 },
-    ],
+    precio: 350,
     categoria: "Pizzas",
     observacion: "",
   },
@@ -159,10 +132,7 @@ const Menu = [
     nombre: "Pizza al Pastor",
     descripcion:
       "Carne al Pastor, mix de queso oaxaca y mozzarella, adobo, piña, cilantro y cebolla",
-    precio: [
-      { tamaño: 30, precio: 350 },
-      { tamaño: 15, precio: 190 },
-    ],
+    precio: 350,
     categoria: "Pizzas",
     observacion: "",
   },
@@ -171,10 +141,7 @@ const Menu = [
     nombre: "Pizza Spicy BBQ",
     descripcion:
       "Pollo a la plancha, salsa spicy bbq, queso cheddar,cebolla morada y perejil",
-    precio: [
-      { tamaño: 30, precio: 450 },
-      { tamaño: 15, precio: 230 },
-    ],
+    precio:450,
     categoria: "Pizzas",
     observacion: "Picante",
   },
@@ -182,10 +149,7 @@ const Menu = [
   {
     nombre: "Pizza Buffalo",
     descripcion: "Chicken banados en salsa buffalo, aderezo blue cheese y apio",
-    precio: [
-      { tamaño: 30, precio: 430 },
-      { tamaño: 15, precio: 220 },
-    ],
+    precio: 430,
     categoria: "Pizzas",
     observacion: "Picante",
   },
@@ -261,56 +225,56 @@ const Menu = [
   },
   {
     nombre: "Frutilla",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 95,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Frutilla",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 95,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Vainilla",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 95,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Chocolate",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion:"2 opciones: Deslactosada o Light",
     precio: 95,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Oreo",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 95,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Batido de Vino",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 120,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Margarita Shake",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 105,
     categoria: "Licuados",
     observacion: "",
   },
   {
     nombre: "Stout Frappe",
-    descripcion: ["Deslactosada", "Light"],
+    descripcion: "2 opciones: Deslactosada o Light",
     precio: 105,
     categoria: "Licuados",
     observacion: "",

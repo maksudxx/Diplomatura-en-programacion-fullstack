@@ -1,0 +1,37 @@
+.vegetarian {
+  background: #3dff3d;
+  color: #000 !important;
+  font-weight: bolder;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.picante {
+  height: 25px;
+  width: 25px;
+  background: red;
+  border-radius: 100%;
+  text-align: center;
+  color: #000 !important;
+  font-weight: bolder;
+}
+
+.card {
+  font-family: Pangolin, cursive;
+  width: 18rem;
+  border-bottom: 3px dashed #fff;
+  padding: 10px;
+}
+.title {
+  color: #ffa500 !important;
+  font-weight: bold;
+}
+
+.containerCard {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
