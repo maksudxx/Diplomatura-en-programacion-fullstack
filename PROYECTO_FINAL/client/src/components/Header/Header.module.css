@@ -1,6 +1,7 @@
 .containerNavbar {
   min-height: 13vh;
   padding: 0 45px;
+  background: #000;
 }
 
 .menu {
