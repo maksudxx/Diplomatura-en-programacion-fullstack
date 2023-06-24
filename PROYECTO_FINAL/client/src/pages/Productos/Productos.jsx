@@ -10,7 +10,7 @@ export const Productos = () => {
   //use effect que viene desde la pagina inicio que se ejecuta cuando presionan el boton "ver mas productos"
   useEffect(() => {
     // Desplazamiento suave hacia la parte superior de la vista
-    destinationRef.current.scrollIntoView({ behavior: 'smooth' });
+    destinationRef.current.scrollIntoView(true);
   }, []);
 
   return (
