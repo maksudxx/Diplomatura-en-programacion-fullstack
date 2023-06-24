@@ -1,28 +1,38 @@
 .nosotrosContainer {
-  height: 100vh;
-  margin: 0;
-  background-image: url("../../src/assets/img/img-inicio/foton_pizzas.jpg");
+  background-image: url("https://static.wixstatic.com/media/a206d1_f442f74da45741fbb1d4207a33f27ee4~mv2_d_7194_4799_s_4_2.jpg/v1/fill/w_1343,h_629,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a206d1_f442f74da45741fbb1d4207a33f27ee4~mv2_d_7194_4799_s_4_2.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Pangolin, cursive;
 }
 
+.info {
+  width: 80%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .titulo {
   font-family: "Pangolin", cursive;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
-  
+  color: #ffa500 !important;
   padding-top: 20px;
   text-align: center;
 }
 
 .descripcion {
   font-family: Pangolin, cursive;
-  font-size: 1.5rem;
 
+  color: #ffa500 !important;
   padding: 0 50px;
   text-align: center;
+}
+.tituloForm {
+  color: #ffa500 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .formulario {
@@ -31,25 +41,28 @@
   justify-content: center;
   height: auto;
   align-items: center;
+  width: 450px;
 }
 
-.formulario input, textarea{
+.formulario input,
+textarea {
   color: #000 !important;
   width: 100%;
 }
 
-.formulario label{
+.formulario label {
   align-self: flex-start;
   margin: 5px 0;
+  color: #ffa500 !important;
 }
-.buttonEnviar{
+
+.buttonEnviar {
   margin: 15px 0;
   width: 50%;
 }
 
 @media screen and (max-width: 675px) {
-
-  .nosotrosContainer{
+  .nosotrosContainer {
     justify-content: space-evenly;
   }
   .titulo {
@@ -57,10 +70,31 @@
     padding-top: 10px;
     margin: 10px;
   }
+  .info {
+    width: 90%;
+  }
+  .formulario {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formulario input,
+  .comments {
+    width: 80%;
+    margin-bottom: 15px;
+  }
 
+  .formulario label {
+    display: none;
+  }
   .descripcion {
     font-size: 1rem;
     text-align: center;
     padding: 0 20px;
+  }
+
+  .buttonEnviar {
+    width: 40%;
   }
 }
