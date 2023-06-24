@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { ButtonProductos } from "../../components/ButtonProductos/ButtonProductos";
 import { GridProductos } from "../../components/GridProductos/GridProductos";
 import { ImgInicio } from "../../components/ImgInicio/ImgInicio";
@@ -7,7 +8,9 @@ export const Inicio = () => {
     <div className={styles.container}>
       <ImgInicio />
       <GridProductos />
+      <Link to='/productos'>
       <ButtonProductos text="VER MAS PRODUCTOS"/>
+      </Link>
     </div>
   );
 };

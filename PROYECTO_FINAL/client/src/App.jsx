@@ -8,9 +8,10 @@ import { Productos } from "./pages/Productos/Productos";
 import { Eventos } from "./pages/Eventos/Eventos";
 
 function App() {
+  
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/nosotros" element={<Nosotros />} />
