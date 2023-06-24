@@ -71,7 +71,7 @@ export const Eventos = () => {
               rows="5"
               placeholder="Comentarios"
             ></textarea>
-            <Button variant="warning" className={styles.sendButton}>
+            <Button variant="outline-warning" className={styles.sendButton}>
                Solicitud de presupuesto
             </Button>
           </div>
