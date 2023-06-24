@@ -6,6 +6,8 @@ import { CardMenu } from "../../components/CardMenu/CardMenu";
 export const Productos = () => {
   const destinationRef = useRef(null);
 
+
+  //use effect que viene desde la pagina inicio que se ejecuta cuando presionan el boton "ver mas productos"
   useEffect(() => {
     // Desplazamiento suave hacia la parte superior de la vista
     destinationRef.current.scrollIntoView({ behavior: 'smooth' });
