@@ -1,0 +1,82 @@
+.container {
+  background: url("https://static.wixstatic.com/media/a206d1_f442f74da45741fbb1d4207a33f27ee4~mv2_d_7194_4799_s_4_2.jpg/v1/fill/w_1679,h_786,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a206d1_f442f74da45741fbb1d4207a33f27ee4~mv2_d_7194_4799_s_4_2.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer {
+  background: #000;
+  width: 50%;
+  font-family: Pangolin, cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleForm {
+  color: #ffa500 !important;
+  width: 90%;
+  margin-top: 30px;
+}
+.form {
+  width: 90%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.inputs {
+  width: 45%;
+  height: 40px;
+  color: #ffa500 !important;
+  font-family: Pangolin, cursive, sans-serif;
+  font-weight: bold;
+}
+
+input[type="date"] {
+  padding: 10px;
+}
+
+.selectPaquete {
+  padding: 10px;
+}
+
+.inputs::placeholder,
+textarea::placeholder {
+  color: #ffa500 !important;
+  font-family: Pangolin, cursive, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.containerLastRow {
+  width: 90%;
+}
+
+.sendButton {
+  width: 100%;
+  margin: 30px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .formContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .row {
+    height: 90px;
+    width: 100%;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+}
