@@ -33,6 +33,7 @@ app.post("/producto", (req, res) => {
 });
 
 //TAREA UNIDAD 4 (podia agregarlo en la ruta productos que esta arriba pero lo hice aca abajo para que se diferencien las tareas)
+//busqueda por categoria de menu (Entradas, Pizzas, Licuados, etc...)
 
 app.get("/categorias", (req, res) => {
   const { categoria } = req.query;
