@@ -3,6 +3,7 @@ const menu = require("./Menu");
 
 const app = express();
 const PORT = 3000;
+app.use(express.json());
 app.get("/productos", (req, res) => {
   res.json(menu);
 });
@@ -17,7 +18,7 @@ app.get("/producto/:id", (req, res) => {
   menuEncontrado ? res.json(menuEncontrado) : res.json("message: error");
 });
 
-app.use(express.json());
+
 app.post("/producto", (req, res) => {
   const { id, nombre, descripcion, precio, categoria, observacion } = req.body;
   console.log(req.body);
