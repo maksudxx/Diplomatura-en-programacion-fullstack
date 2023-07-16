@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const cors = require('cors');
 const routes = require("./routes/index.js");
-require("./db.js");
+// require("./db.js");
 const server = express();
 
-server.name('API');
+// server.name('API');
 
 //sirve para recibimos datos de formularios
 server.use(bodyParser.urlencoded({extended: true, limit: "50mb"}));
