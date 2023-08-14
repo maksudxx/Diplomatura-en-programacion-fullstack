@@ -11,7 +11,7 @@ module.exports = (sequelize) => {
       },
     rol_descripcion: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
   });
 };
