@@ -24,7 +24,7 @@ module.exports = (Sequelize) => {
         allowNull: false,
     },
     usuario_telefono:{
-        typeof: DataTypes.STRING,
+        type: DataTypes.STRING,
         allowNull: false,
     }
   });
