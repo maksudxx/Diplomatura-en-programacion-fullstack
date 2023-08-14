@@ -1,6 +1,9 @@
 const server = require("./src/app");
 require("dotenv").config();
-
-server.listen(process.env.PORT || 3001, async () => {
-  console.log("%s listening at 3001");
-});
+const { conn, Rol} = require("./src/db.js");
+const {PORT} = process.env
+conn.sync({force: true}).then(()=>{
+  server.listen(PORT || 3001, async () => {
+    console.log(`listening server on port ${PORT}`);
+  });
+})
