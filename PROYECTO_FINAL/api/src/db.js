@@ -38,21 +38,32 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Rol, Usuario, Mesa, Reserva, Caracteristica } = sequelize.models;
+const { Rol, Usuario, Mesa, Reserva, Caracteristica, Pedido, Producto, Categoria} = sequelize.models;
 
 // // Aca vendrian las relaciones
 
-//Relacion 1 a n entre usuario y rol
+//Relacion 1 a N entre usuario y rol
 Rol.hasMany(Usuario, { foreignKey: 'rol_id' });
 Usuario.belongsTo(Rol, { foreignKey: 'rol_id' });
 
-//Relacion 1 a en entre reservacion con mesa y usuario
+//Relacion 1 a N entre reservacion con mesa y usuario
 Mesa.hasMany(Reserva, { foreignKey: 'mesa_id' });
 Reserva.belongsTo(Mesa, { foreignKey: 'mesa_id'});
 
 Usuario.hasMany(Reserva, { foreignKey: 'usuario_id' });
 Reserva.belongsTo(Mesa, { foreignKey: 'usuario_id}'});
 
+// Relacion 1 a N entre Pedido y Usuario
+Usuario.hasMany(Pedido, { foreignKey: 'usuario_id'});
+Pedido.belongsTo(Usuario, { foreignKey: 'usuario_id'});
+
+
+//Realicion 1 a N entre Producto y Caracteristica y Categoria
+Categoria.hasMany(Producto, { foreignKey: 'categoria_id'});
+Producto.belongsTo(Categoria, { foreignKey: 'categoria_id'});
+
+Caracteristica.hasMany(Producto, { foreignKey: 'caracteristica_id'});
+Producto.belongsTo(Caracteristica, { foreignKey: 'caracteristica_id'});
 
 
 
