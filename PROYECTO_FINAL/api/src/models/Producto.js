@@ -28,5 +28,7 @@ module.exports = (Sequelize) => {
         allowNull: true,
     }
 
-  });
+  },{
+    timestamps: false
+});
 };

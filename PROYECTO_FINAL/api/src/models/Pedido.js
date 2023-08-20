@@ -15,5 +15,7 @@ module.exports = (Sequelize) =>{
             type: DataTypes.DECIMAL(2),
             allowNull: false
         }
+    },{
+        timestamps: false
     });
 }
