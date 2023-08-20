@@ -38,7 +38,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Rol, Usuario, Mesa, Reserva, Caracteristica, Pedido, Producto, Categoria, DetallePedido} = sequelize.models;
+const { Rol, Usuario, Mesa, Reserva, Caracteristica, Pedido, Producto, Categoria, DetallePedido, Factura, FormaPago} = sequelize.models;
 
 // // Aca vendrian las relaciones
 
@@ -73,6 +73,13 @@ DetallePedido.belongsTo(Producto, {foreignKey: 'producto_id'});
 Pedido.hasMany(DetallePedido, {foreignKey: 'pedido_id'});
 DetallePedido.belongsTo(Pedido, {foreignKey: 'pedido_id'});
 
+
+//Relacion 1 a N entre Factura con Pedido y forma de pago
+Pedido.hasMany(Factura, {foreignKey: 'pedido_id'});
+Factura.belongsTo(Pedido, {foreignKey: 'pedido_id'});
+
+FormaPago.hasMany(Factura, {foreignKey:'forma_pago_id'});
+Factura.belongsTo(FormaPago, {foreignKey:'forma_pago_id'});
 
 
 module.exports = {
