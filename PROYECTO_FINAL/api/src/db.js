@@ -51,7 +51,7 @@ Mesa.hasMany(Reserva, { foreignKey: 'mesa_id' });
 Reserva.belongsTo(Mesa, { foreignKey: 'mesa_id'});
 
 Usuario.hasMany(Reserva, { foreignKey: 'usuario_id' });
-Reserva.belongsTo(Mesa, { foreignKey: 'usuario_id}'});
+Reserva.belongsTo(Mesa, { foreignKey: 'usuario_id'});
 
 // Relacion 1 a N entre Pedido y Usuario
 Usuario.hasMany(Pedido, { foreignKey: 'usuario_id'});
