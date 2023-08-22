@@ -23,10 +23,6 @@ module.exports = (Sequelize) => {
         type: DataTypes.INTEGER,
         allowNull: false,
     },
-    producto_imagen:{
-        type: DataTypes.STRING,
-        allowNull: true,
-    }
 
   },{
     timestamps: false
