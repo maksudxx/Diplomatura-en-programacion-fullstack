@@ -11,10 +11,6 @@ module.exports = (Sequelize) => {
         type: DataTypes.UUID,
         allowNull: false,
     },
-    caracteristica_imagen:{
-        type: DataTypes.STRING,
-        allowNull: false,
-    }
   },{
     timestamps: false
 });
